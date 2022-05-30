@@ -4,8 +4,12 @@ if(process.env.NODE_ENV !== 'production') {
 
 const express = require('express')
 const app = express()
+const bodyParser = require('body-parser')
 const expressLayouts = require('express-ejs-layouts')
 const indexRouter = require('./routes/index')
+const authorRouter = require('./routes/authors')
+
+
 const mongoose = require('mongoose')
 mongoose.connect(process.env.DATABASE_URL, {
     useNewUrlParser: true })
@@ -23,7 +27,11 @@ app.set('layout', 'layouts/layout')
 
 app.use(expressLayouts)
 app.use(express.static('public'))
+app.use(bodyParser.urlencoded({ limit: '10mb', extended: false }))
+
 app.use('/', indexRouter)
+app.use('/authors', authorRouter)
+
 
 app.listen(process.env.PORT || 3000)
 
