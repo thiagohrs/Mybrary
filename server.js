@@ -8,7 +8,12 @@ const bodyParser = require('body-parser')
 const expressLayouts = require('express-ejs-layouts')
 const indexRouter = require('./routes/index')
 const authorRouter = require('./routes/authors')
-
+const bookRouter = require('./routes/books')
+//const multer = require('multer')
+//const path = require('path')
+//const upload = multer({
+//    dest: 
+//})
 
 const mongoose = require('mongoose')
 mongoose.connect(process.env.DATABASE_URL, {
@@ -31,6 +36,7 @@ app.use(bodyParser.urlencoded({ limit: '10mb', extended: false }))
 
 app.use('/', indexRouter)
 app.use('/authors', authorRouter)
+app.use('/books', bookRouter)
 
 
 app.listen(process.env.PORT || 3000)
