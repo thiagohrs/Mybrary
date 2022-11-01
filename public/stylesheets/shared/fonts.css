@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Alegreya';
+    src: url('/fonts/Alegreya-ExtraBoldItalic.woff2') format('woff2'),
+        url('/fonts/Alegreya-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('/fonts/Alegreya-BoldItalic.woff2') format('woff2'),
+        url('/fonts/Alegreya-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('/fonts/Alegreya-Black.woff2') format('woff2'),
+        url('/fonts/Alegreya-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('/fonts/Alegreya-BlackItalic.woff2') format('woff2'),
+        url('/fonts/Alegreya-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('/fonts/Alegreya-ExtraBold.woff2') format('woff2'),
+        url('/fonts/Alegreya-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('/fonts/Alegreya-Bold.woff2') format('woff2'),
+        url('/fonts/Alegreya-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('/fonts/Alegreya-Medium.woff2') format('woff2'),
+        url('/fonts/Alegreya-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('/fonts/Alegreya-Italic.woff2') format('woff2'),
+        url('/fonts/Alegreya-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('/fonts/Alegreya-SemiBold.woff2') format('woff2'),
+        url('/fonts/Alegreya-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('/fonts/Alegreya-Regular.woff2') format('woff2'),
+        url('/fonts/Alegreya-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('/fonts/Alegreya-MediumItalic.woff2') format('woff2'),
+        url('/fonts/Alegreya-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('/fonts/Alegreya-SemiBoldItalic.woff2') format('woff2'),
+        url('/fonts/Alegreya-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
